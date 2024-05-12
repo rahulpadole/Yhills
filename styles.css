@@ -1,0 +1,38 @@
+/* Custom CSS for body background image */
+body {
+  background-color: #3498db; /* Fallback color in case gradients are not supported */
+  background-image: linear-gradient(to bottom right, #3498db, #2ecc4b); /* Gradient for modern browsers */
+}
+
+.custom-nav .nav-item:not(:last-child) {
+    margin-right: auto; /* Adjust as needed */
+  }
+  
+
+      /* Custom CSS for hover effect */
+      .img-fluid {
+        transition: transform 0.5s ease-in-out;
+      }
+  
+      .img-fluid:hover {
+        transform: scale(1.1);
+      }
+
+      .btn {
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.1);
+      }
+  
+      .btn:hover {
+        transform: scale(1.3);
+      }
+
+/* Custom CSS for card hover effect */
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Increase size of card on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow effect on hover */
+}

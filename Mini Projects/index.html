@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVolution 2024 Registration</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet">
+    <link href="Style.css" rel="stylesheet">
+    <style>
+      /* Custom CSS to add gap between input boxes */
+      .name-section input {
+        margin-bottom: 10px; /* Add margin bottom to create a gap */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>TechVolution 2024 Registration</h2>
+      <br>
+      <form id="registrationForm">
+
+        <!-- Personal Information -->
+        <section>
+          <h4>Personal Information</h4>
+          <div class="form-group">
+            <label for="name">Enter Your Name </label>
+            <div class="name-section">
+              <input type="text" class="form-control" id="firstName"
+                placeholder="First Name" required>
+              <input type="text" class="form-control" id="middleName"
+                placeholder="Middle Name" required>
+              <input type="text" class="form-control" id="lastName"
+                placeholder="Last Name" required>
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" class="form-control" id="dob" required>
+          </div>
+          <br>
+          <div class="form-group">
+            <label>Gender</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender"
+                id="male" value="male">
+              <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender"
+                id="female" value="female">
+              <label class="form-check-label" for="female">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender"
+                id="nonbinary" value="nonbinary">
+              <label class="form-check-label" for="nonbinary">Non-binary</label>
+            </div>
+          </div>
+        </section>
+        <br>
+
+         <!-- Contact Details -->
+      <section>
+        <h4>Contact Details</h4>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phoneNumber">Phone Number</label>
+          <input type="tel" class="form-control" id="phoneNumber" required>
+        </div>
+      </section>
+      
+      <!-- Address -->
+      <section>
+        <h4>Address</h4>
+        <div class="form-group">
+          <label for="streetAddress">Street Address:</label>
+          <input type="text" class="form-control" id="streetAddress" required>
+        </div>
+        <div class="form-group">
+          <label for="city">City:</label>
+          <input type="text" class="form-control" id="city" required>
+        </div>
+        <div class="form-group">
+          <label for="state">State:</label>
+          <select class="form-control" id="state" required>
+            <option value="">Choose...</option>
+            <option value="AN">Andaman and Nicobar Islands</option>
+            <option value="AP">Andhra Pradesh</option>
+            <option value="AR">Arunachal Pradesh</option>
+            <option value="AS">Assam</option>
+            <option value="BR">Bihar</option>
+            <option value="CH">Chandigarh</option>
+            <option value="CT">Chhattisgarh</option>
+            <option value="DN">Dadra and Nagar Haveli</option>
+            <option value="DD">Daman and Diu</option>
+            <option value="DL">Delhi</option>
+            <option value="GA">Goa</option>
+            <option value="GJ">Gujarat</option>
+            <option value="HR">Haryana</option>
+            <option value="HP">Himachal Pradesh</option>
+            <option value="JK">Jammu and Kashmir</option>
+            <option value="JH">Jharkhand</option>
+            <option value="KA">Karnataka</option>
+            <option value="KL">Kerala</option>
+            <option value="LD">Lakshadweep</option>
+            <option value="MP">Madhya Pradesh</option>
+            <option value="MH">Maharashtra</option>
+            <option value="MN">Manipur</option>
+            <option value="ML">Meghalaya</option>
+            <option value="MZ">Mizoram</option>
+            <option value="NL">Nagaland</option>
+            <option value="OR">Odisha</option>
+            <option value="PY">Puducherry</option>
+            <option value="PB">Punjab</option>
+            <option value="RJ">Rajasthan</option>
+            <option value="SK">Sikkim</option>
+            <option value="TN">Tamil Nadu</option>
+            <option value="TS">Telangana</option>
+            <option value="TR">Tripura</option>
+            <option value="UP">Uttar Pradesh</option>
+            <option value="UK">Uttarakhand</option>
+            <option value="WB">West Bengal</option>
+          </select>
+          
+            <!-- Add more states as needed -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="zipCode">Zip Code:</label>
+          <input type="text" class="form-control" id="zipCode" required>
+        </div>
+      </section>
+
+      <!-- Additional Information -->
+      <section>
+        <h4>Additional Information</h4>
+        <div class="form-group">
+          <label for="eventPreferences">Event Preferences:</label>
+          <select class="form-control" id="eventPreferences">
+            <option value="">Select Preference</option>
+            <option value="Workshops">Workshops</option>
+            <option value="Keynote speeches">Keynote speeches</option>
+            <option value="Networking sessions">Networking sessions</option>
+            <!-- Add more preferences here -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="dietaryRestrictions">Dietary Restrictions:</label>
+          <input type="text" class="form-control" id="dietaryRestrictions">
+        </div>
+        <div class="form-group">
+          <label for="tshirtSize">T-shirt Size:</label>
+          <select class="form-control" id="tshirtSize">
+            <option value="">Select Size</option>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+            <!-- Add more sizes here -->
+          </select>
+        </div>
+      </section>
+
+      <section>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+      </section>
+
+      </form>
+    </div>
+    <br>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="registration-form.js"></script>
+  </body>
+</html>

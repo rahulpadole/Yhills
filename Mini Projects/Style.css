@@ -1,0 +1,64 @@
+/* Custom styles for TechVolution 2024 Registration Form */
+.container {
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #cc7878;
+    border-radius: 10px;
+    background-color: rgb(147, 232, 134);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  h2 {
+    text-align: center; /* Center align the text */
+    margin-bottom: 30px; /* Add some bottom margin for spacing */
+    color: #007bff; /* Set the text color */
+    font-size: 32px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add some letter spacing */
+    transition: color 0.3s, font-size 0.3s; /* Add smooth transitions */
+  }
+  
+  /* Hover effect for heading */
+  h2:hover {
+    color: #0056b3; /* Darker shade of blue on hover */
+    font-size: 34px; /* Slightly increase font size on hover */
+  }
+  
+  /* Custom CSS for submit button */
+  #registrationForm button[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to button */
+    border-radius: 5px; /* Add border radius to button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 20px; /* Add margin at the top */
+  }
+  
+  #registrationForm button[type="submit"]:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+  }
+  
+
+h4 {
+    
+    text-align: center;
+    border: #c3e619b9;
+    margin-bottom: 30px;
+    color: rgb(252, 27, 60); /* default color */
+    font-size: 24px; /* custom font size */
+    font-weight: bold; /* custom font weight */
+    text-transform: uppercase; /* transform text to uppercase */
+    letter-spacing: 2px; /* increase letter spacing */
+    transition: color 0.3s; /* smooth transition */
+    
+}
+
+.col-12 {
+    text-align: center; /* Center align all children */
+  }
